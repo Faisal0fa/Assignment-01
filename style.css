@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Azeret Mono", monospace;
+}
+
+  /* navber style start  */
+  
+  .navber .container{
+    width:90%;
+    margin:0px auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:35px 0px;
+    
+  }
+  .navber .container span a{
+       color: rgb(13, 19, 33);
+      font-family: Azeret Mono;
+      font-size: 28px;
+      font-weight: 800;
+      line-height: 33px;
+      letter-spacing: 0%;
+      margin-left: 200PX;
+      text-align: left;
+      text-decoration: none;
+  }
+  .navber .container .btn{
+
+    padding:17px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    margin-right: 200PX;
+    opacity: 0.8;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+
+  }
+
+  /* Navber style end */
+
+.header-container {
+    width: 1440px;
+    height: 652px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.0);
+    background-image: url(./assets/Hero-bg\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.box-conatiner {
+    width: 998px;
+    height: 582px;
+    margin: 0 auto;
+}
+.image-container {
+    width: 240.28px;
+    height: 240px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.text-container {
+    width: 998px;
+    height: 212px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.text-container h1 {
+    text-align: center;
+    font-weight: 800;
+
+}
+.text-container p{
+    text-align: center;
+    color: #0D1321;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.p-text {
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 60px;
+}
+
+.button-container {
+    width: 250px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: black;
+    border-radius: 5px;
+}
+.button-container a {
+    color: rgb(255, 255, 255);
+    margin: 25px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+}
